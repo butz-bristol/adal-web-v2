@@ -18,8 +18,7 @@ export default defineConfig({
     ],
   },
   esbuild: {
-    jsxFactory: 'h', // Change this to your desired JSX factory function
-    jsxFragment: 'Fragment', // Change this to your desired JSX fragment
+    loader: { '.js': 'jsx' },
   },
 
   server: {
