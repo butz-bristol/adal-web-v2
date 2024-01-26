@@ -19,8 +19,8 @@ import { PDFDownloadLink } from '@react-pdf/renderer';
 import { IconCircleXFilled, IconDownload, IconEye } from '@tabler/icons-react';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
-import { H5Typography } from 'src/utils/helperFunctions';
 import EnrollmentPDFFile from './PDFDocument';
+import { H5Typography } from '../OtherComponents';
 
 const SHSAssessments = ({ assessments }) => {
   const [page, setPage] = useState(0);

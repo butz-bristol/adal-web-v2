@@ -136,7 +136,6 @@ const AddAdminCompensation = ({ hrview }) => {
 
     dispatch(
       createAdminCompensation({
-        userId,
         salary_rate,
         cutOffPeriod,
         computed_hourly_rate,

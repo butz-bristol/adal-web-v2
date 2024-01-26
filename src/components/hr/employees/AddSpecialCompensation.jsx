@@ -144,7 +144,6 @@ const AddSpecialDesignation = ({ hrview }) => {
 
     dispatch(
       createSpecialCompensation({
-        userId,
         salary_rate,
         cutOffPeriod,
         computed_hourly_rate,

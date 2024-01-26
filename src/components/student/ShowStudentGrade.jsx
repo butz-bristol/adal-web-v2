@@ -12,7 +12,7 @@ import { getAllPrograms } from 'src/features/academicFeatures/academicSlice';
 
 import { FormControl, Grid, InputLabel, MenuItem, Select } from '@mui/material';
 
-import { getStudent } from 'features/admissionsFeatures/admissionsSlice';
+import { getStudent } from 'src/features/admissionsFeatures/admissionsSlice';
 import { departmentWithPrograms, k12Departments } from 'utils/helperFunctions';
 import UnderConstruction from 'views/maintenance/UnderConstruction';
 import ShowK12GradingSystem from './ShowK12GradingSystem';

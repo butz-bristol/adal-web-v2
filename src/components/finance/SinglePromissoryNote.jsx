@@ -31,7 +31,8 @@ import {
   setDynamicData,
   toggleEditPromissoryNote,
 } from 'src/features/financeFeatures/financeSlice';
-import { LinkComponent } from 'src/utils/helperFunctions';
+
+import LinkComponent from '../LinkComponent';
 import { ExternalLinkComponent } from '../OtherComponents';
 import AddPromissoryNote from './AddPromissoryNote';
 

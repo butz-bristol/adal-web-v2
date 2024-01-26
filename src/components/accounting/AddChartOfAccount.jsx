@@ -19,7 +19,7 @@ import {
   toggleEditChartOfAccount,
   updateChartOfAccount,
 } from 'src/features/accountingFeatures/accountingSlice';
-import { formatMonthDay } from 'utils/dateFunctions';
+import { formatMonthDay } from 'src/utils/dateFunctions';
 
 const AddChartOfAccount = () => {
   const {

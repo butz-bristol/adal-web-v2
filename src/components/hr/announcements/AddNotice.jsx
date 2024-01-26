@@ -69,7 +69,6 @@ const AddNotice = () => {
         updateNotice({
           editNoticeId,
           notice_title,
-          notice_image,
           notice_date,
           notice_description,
           department_id,

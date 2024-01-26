@@ -401,7 +401,6 @@ const CollegeEnrollmentPDF = ({
                         style={{
                           width: 1.5,
                           marginRight: 0,
-                          width: '50%',
                           border: '1px solid #000',
                         }}
                       ></View>
@@ -496,7 +495,7 @@ const CollegeEnrollmentPDF = ({
                         style={{
                           width: 1.5,
                           marginRight: 0,
-                          width: '50%',
+
                           border: '1px solid #000',
                         }}
                       ></View>
@@ -829,7 +828,7 @@ const CollegeEnrollmentPDF = ({
                         style={{
                           width: 1.5,
                           marginRight: 0,
-                          width: '50%',
+
                           border: '1px solid #000',
                         }}
                       ></View>

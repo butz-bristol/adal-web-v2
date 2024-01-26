@@ -58,7 +58,7 @@ const RequestBookModal = () => {
             user_type: user?.userId ? 'User' : 'Student',
             overdue_fine: overdue_fine,
             book_rack_no: book_rack_no,
-            book_author: book_author,
+            // book_author: book_author, //Pleae fix this, do no duplicate keys for book_author
           };
         } else {
           return copy;

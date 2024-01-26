@@ -18,7 +18,7 @@ import {
   handleProductFormChange,
   updateProduct,
 } from 'src/features/canteenFeatures/products/canteenProductSlice';
-import { isNegative, isNumeric } from 'utils/formValidationFunctions';
+import { isNegative, isNumeric } from 'src/utils/formValidationFunctions';
 
 const ManageProductModal = () => {
   const errorProductInitialState = {

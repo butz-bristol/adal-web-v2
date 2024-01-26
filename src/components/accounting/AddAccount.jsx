@@ -23,7 +23,7 @@ import {
   toggleEditAccount,
   updateAccount,
 } from 'src/features/accountingFeatures/accountingSlice';
-import { formatMonthDay } from 'utils/dateFunctions';
+import { formatMonthDay } from 'src/utils/dateFunctions';
 import styles from '../modalBoxStyle';
 
 const ITEM_HEIGHT = 48;

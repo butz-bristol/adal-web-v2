@@ -43,8 +43,8 @@ import {
   toggleGridView,
   toggleListView,
 } from 'src/features/accountingFeatures/accountingSlice';
+import { formatMonthDay } from 'src/utils/dateFunctions';
 import { extractRole } from 'src/utils/helperFunctions';
-import { formatMonthDay } from 'utils/dateFunctions';
 const ChartOfAccount = () => {
   const dispatch = useDispatch();
   const [openConfirmation, setOpenConfirmation] = useState(false);

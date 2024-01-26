@@ -136,7 +136,6 @@ const AddCompensation = () => {
 
     dispatch(
       createCompensation({
-        userId,
         salary_rate,
         cutOffPeriod,
         computed_hourly_rate,

@@ -12,7 +12,7 @@ import {
 import { styled, useTheme } from '@mui/material/styles';
 
 // project imports
-import { DASHBOARD_PATH } from 'config';
+import { DASHBOARD_PATH } from 'src/config';
 import { gridSpacing } from 'src/store/constant';
 import AnimateButton from 'src/ui-component/extended/AnimateButton';
 

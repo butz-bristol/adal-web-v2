@@ -19,7 +19,8 @@ import { PDFDownloadLink } from '@react-pdf/renderer';
 import { IconCircleXFilled, IconDownload, IconEye } from '@tabler/icons-react';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
-import { H5Typography } from 'src/utils/helperFunctions';
+
+import { H5Typography } from '../OtherComponents';
 import EnrollmentPDFFile from './PDFDocument';
 
 const TESDAAssessments = ({ assessments }) => {

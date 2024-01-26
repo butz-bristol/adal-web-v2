@@ -144,7 +144,6 @@ const AddTeachingCompensation = ({ hrview }) => {
 
     dispatch(
       createTeachingCompensation({
-        userId,
         salary_rate,
         cutOffPeriod,
         computed_hourly_rate,

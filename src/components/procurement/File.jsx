@@ -1,8 +1,8 @@
 import { Delete, Download } from '@mui/icons-material';
 import { Button, Tooltip, Typography } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
+
+import { Document, Page } from '@react-pdf/renderer';
 import { useState } from 'react';
 
 const File = ({ _id, file_path, file_name, deleteFile }) => {
@@ -55,7 +55,7 @@ const fileStyles = {
   margin: '10px 0',
   background: '#3f51b5',
   color: '#fff',
-  maxWidth: '200px'
+  maxWidth: '200px',
 };
 
 export default File;
