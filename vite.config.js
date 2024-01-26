@@ -17,14 +17,6 @@ export default defineConfig({
       },
     ],
   },
-  esbuild: {
-    // Use 'jsx' loader for '.js' files
-    loader: {
-      '.js': 'jsx',
-      '.jsx': 'jsx', // Optional, specify 'jsx' for '.jsx' files as well
-    },
-  },
-
   server: {
     port: 3000,
   },
